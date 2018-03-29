@@ -46,7 +46,7 @@ spec:
       subdomain: hystrix
       containers:
       - name: spring-cloud-hystrix
-        image: hubtea/spring-cloud-hystrix:latest
+        image: ssipflow/spring-cloud-hystrix:latest
         env:
         - name: SPRING_PROFILES_ACTIVE
           value: dev

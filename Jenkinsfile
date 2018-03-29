@@ -22,7 +22,7 @@ node {
     }
 
     stage('Build Docker Image') {
-        buildImage = docker.build("hubtea/spring-cloud-hystrix:${commitHash}")
+        buildImage = docker.build("ssipflow/spring-cloud-hystrix:${commitHash}")
     }
 
 
